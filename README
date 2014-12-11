@@ -1,0 +1,11 @@
+Overview:
+
+	Tool to brute-force passphrase of RSA private keys in PEM format.
+
+Example:
+
+	cat dict.txt | rsakey-cracker ./private-key.pem
+
+	OR
+
+	john -i --stdout | rsakey-cracker ./private-key.pem
